@@ -42,6 +42,8 @@ const Clicker: React.FC = () => {
 }
 ```
 
+> :warning: Beware that setter of useState is asynchronous, so don't try to get a value in subsequent instructions (ie. console.log).
+
 [![Edit working clicker](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/stupefied-dawn-y5bdl?fontsize=14)
 
 ## Resources
